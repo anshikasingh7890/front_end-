@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>i_frame</title>
+</head>
+<body>
+       <h2>vedio player</h2>
+       <p>adding vedio to html</p>
+       <vedio control width="400"></vedio>
+       <iframe src="./fed/videos/ssvid.net---Moon-Stock-Footage-Full-Moon-Eclipse-Night_v720P.mp4" frameborder="300"></iframe>
+</body>
+</html>
+
+        
