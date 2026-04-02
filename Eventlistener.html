@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="text" id="inputBox"
+   placeholder="Type here">
+   <p id="result"></p> 
+
+   <script>
+    const inputBox=inputBox
+    document.getElementByid("inputBox"); 
+    const result=
+    document.getElementByid("result");
+
+    inputBox.addEventListener("Keydown",function(event){
+        result.textContent="You pressed:"+event.key;
+    });
+   </script>
+</body>
+</html>
